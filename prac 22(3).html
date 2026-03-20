@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.ball {
+  width: 50px;
+  height: 50px;
+  background: purple;
+  border-radius: 50%;
+  position: relative;
+  animation: bounce 1s infinite alternate;
+}
+.ball1 {
+  width: 50px;
+  height: 50px;
+  background: yellow;
+  border-radius: 30%;
+  position: relative;
+  animation: bounce 1s infinite alternate;
+}
+
+@keyframes bounce {
+  from { top: 0px; }
+  to { top: 200px; }
+}
+@keyframes bounce {
+  from { top: 0px; }
+  to { top: 400px; }
+}
+
+</style>
+</head>
+<body>
+
+<h2>Bouncing Ball</h2>
+<div class="ball"></div>
+<div class="ball1"></div>
+
+</body>
+</html>
